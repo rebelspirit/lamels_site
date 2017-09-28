@@ -3,18 +3,18 @@
 	margin: 0;
 }
 @font-face {
-    font-family: 'Montserrat-Regular'; /* Имя шрифта */
-    src: url(fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: 'Philosopher-Regular'; /* Имя шрифта */
+    src: url(fonts/Philosopher-Regular.ttf); /* Путь к файлу со шрифтом */
    }
 body {
-	font-family: 'Montserrat-Regular', sans-serif;
+	font-family: 'Philosopher-Regular', sans-serif;
 }
 a {
 	text-decoration: none;
 	color: white;
 }
 header {
-	background: url(img/bcg.png) no-repeat;
+	background: url(img/bcg.png) no-repeat rgba(0,0,0,0.5);;
 	height: 100%;
 	max-height: 770px;
 	padding-bottom: 260px;
@@ -30,15 +30,21 @@ header {
 	align-items: center;
 	width: 100%;
 	max-width: 1140px;
-	padding-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .menu  {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	max-width: 600px;
+	max-width: 850px;
+	height: 50px;	
+	font-size: 25px;
+}
+.menu > a:hover {
+	color: #FFC100;
+	border-bottom: 2px solid #FFC100;
 }
 .wellcome {
 	display: flex;
@@ -51,16 +57,24 @@ header {
 	color: white;
 	margin-top: 220px;
 }
+h2 {
+	font-size: 40px;
+	font-weight: lighter;
+}
 h3 {
+	font-size: 27px;
+	font-weight: lighter;
 	margin-top: 20px;
 }
 .header_button {
 	display: inline-block;
-	font-family: 'Montserrat-Regular', sans-serif;
-	width: 180px;
-	height: 50px;
+	font-family: 'Philosopher-Regular', sans-serif;
+	width: 220px;
+	height: 65px;
+	font-size: 20px;
+	font-weight: bold;
 	background-color: transparent;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 5px;
     outline: none;
     text-decoration: none;
@@ -68,7 +82,7 @@ h3 {
     margin-top: 40px;
 }
 span {
-	color: #fc635e;
+	color: #FFC100;
 }
 .our_service {
 	color: 	#868686;
@@ -106,8 +120,12 @@ hr {
 .colomn1, .colomn2, .colomn3 {
 	width: 150px;
 }
+.logo {
+	height: 225px;
+	width: 175px;
+}
 .description {
-	color: 	#fc635e;
+	color: 	#FFC100;
 	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
