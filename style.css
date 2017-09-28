@@ -97,7 +97,7 @@ hr {
 	margin-top: 50px;
 }
 .colomn1, .colomn2, .colomn3, img {
-	height: 125px;
+	height: 100px;
 	width: 115px;
 	margin-bottom: 15px;
 	margin-left: auto;
@@ -107,7 +107,7 @@ hr {
 	width: 150px;
 }
 .description {
-	color: 	#868686;
+	color: 	#fc635e;
 	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
